@@ -5,10 +5,3 @@ C:\Users\Administrator\Desktop\gamedata_c#\gamedata_c#\gamedata_c#\obj\Debug\gam
 C:\Users\Administrator\Desktop\gamedata_c#\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Desktop\gamedata_c#\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.exe
 C:\Users\Administrator\Desktop\gamedata_c#\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.pdb
-D:\timplay\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.csproj.AssemblyReference.cache
-D:\timplay\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.csproj.CoreCompileInputs.cache
-D:\timplay\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.exe
-D:\timplay\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.pdb
-D:\timplay\gamedata_c#\gamedata_c#\bin\Debug\gamedata_c#.exe.config
-D:\timplay\gamedata_c#\gamedata_c#\bin\Debug\gamedata_c#.exe
-D:\timplay\gamedata_c#\gamedata_c#\bin\Debug\gamedata_c#.pdb

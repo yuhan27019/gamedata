@@ -44,41 +44,128 @@ namespace gamedata_c_
 
             while (true)
             {
-                Console.Clear();
+                
 
-                // 타이틀 화면 출력
-                Console.WriteLine("*= Blacksmith =*");
-                Console.WriteLine("  -----------\n");
 
-                // 현재 상태와 강화 도전 질의 출력
-                Console.WriteLine($"재화 : {money}골드\n");
-                Console.WriteLine($"무기레벨 : + {level}");
-                Console.WriteLine($"성공확률 : {probability + support:F2}%");
-                Console.WriteLine("도전하시겠습니까?");
-                Console.WriteLine("1.강화  2. 판매  3. 주문서 4. 포기 5. 최고기록");
-                isTry = int.Parse(Console.ReadLine());
 
-                switch (isTry)
+                // 선택지 표시 및 선택
+                ConsoleKeyInfo keyPressed;
+                int selectedOption = 1;
+            do
                 {
-                    case 1:
-                        Enforce();
-                        break;
-                    case 2:
-                        Shop();
-                        break;
-                    case 3:
-                        EnforceSupport();
-                        break;
-                    case 4:
-                        Console.WriteLine("게임을 종료합니다");
+                    // 타이틀 화면 출력
+                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=\n");
+                    Console.BackgroundColor = ConsoleColor.White;
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    Console.WriteLine("                                         ");
+                    Console.WriteLine("               Blacksmith                ");
+                    Console.WriteLine("                                         ");
+                    Console.ResetColor();
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    // 현재 상태와 강화 도전 질의 출력
+                    Console.WriteLine("\n=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=\n");
+                    Console.ResetColor();
+                    Console.WriteLine("                           현재 상태\n");
+                    Console.WriteLine($"                      재화 : {money} 골드");
+                    Console.WriteLine($"                      무기 레벨 : +{level}");
+                    Console.WriteLine($"                      성공 확률 : {probability + support:F2}%\n");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=\n");
+                    Console.ResetColor();
+
+
+
+
+
+
+
+                    Console.SetCursorPosition(0, selectedOption + 12);
+                    Console.ForegroundColor = ConsoleColor.White;
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        Console.SetCursorPosition(0, i + 7);
+                        if (i == selectedOption)
+                        {
+                            Console.BackgroundColor = ConsoleColor.White;
+                            Console.ForegroundColor = ConsoleColor.Black;
+                            
+
+                        }
+                        else
+                        {
+                            Console.ResetColor();
+                            Console.ForegroundColor = ConsoleColor.White;
+                        }
+
+                        switch (i)
+                        {
+                            case 1:
+                                Console.WriteLine(" 1. 강화");
+                               
+                                break;
+                            case 2:
+                                Console.WriteLine(" 2. 판매");
+                                break;
+                            case 3:
+                                Console.WriteLine(" 3. 주문서");
+                                break;
+                            case 4:
+                                Console.WriteLine(" 4. 포기");
+                                break;
+                            case 5:
+                                Console.WriteLine(" 5. 최고 기록");
+                                break;
+                        }
+                    }
+                    Console.ResetColor();
+
+                    keyPressed = Console.ReadKey();
+
+            if (keyPressed.Key == ConsoleKey.UpArrow)
+            {
+                if (selectedOption > 1)
+                {
+                    selectedOption--;
+                }
+            }
+            else if (keyPressed.Key == ConsoleKey.DownArrow)
+            {
+                if (selectedOption < 5)
+                {
+                    selectedOption++;
+                }
+            }
+
+        } while (keyPressed.Key != ConsoleKey.Enter);
+                Console.SetCursorPosition(0, 16);
+
+
+                // 선택 실행
+                switch (selectedOption)
+        {
+            case 1:
+                Enforce();
+                break;
+            case 2:
+                Shop();
+                break;
+            case 3:
+                EnforceSupport();
+                break;
+            case 4:
+                Console.WriteLine("게임을 종료합니다");
                         WriteToCsv("item_usage.csv", "Item Type", "무기 파괴 방지서 사용 횟수 : ", itemPurchaseCounts[0]);
                         WriteToCsv("item_usage.csv", "Item Type", "강화 확률 상승서 사용 횟수 : ", itemPurchaseCounts[1]);
                         WriteToCsv("item_usage.csv", "Item Type", "무기 가치 상승서 사용 횟수 : ", itemPurchaseCounts[2]);
                         return;
-                    case 5:
-                        Console.WriteLine($"무기의 최고레벨은 {totallevel} 입니다.");
-                        break;
-                }
+            case 5:
+                Console.WriteLine($"무기의 최고레벨은 {totallevel} 입니다.");
+                break;
+        }
+
+                
 
                 Console.WriteLine("\n계속하려면 아무 키나 누르십시오.");
                 Console.ReadKey();
