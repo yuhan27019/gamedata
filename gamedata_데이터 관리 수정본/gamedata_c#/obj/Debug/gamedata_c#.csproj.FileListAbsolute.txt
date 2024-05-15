@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\gamedata_c#\gamedata_c#\gamedata_c#\bin\Debug\gamedata_c#.exe.config
+C:\Users\Administrator\Desktop\gamedata_c#\gamedata_c#\gamedata_c#\bin\Debug\gamedata_c#.exe
+C:\Users\Administrator\Desktop\gamedata_c#\gamedata_c#\gamedata_c#\bin\Debug\gamedata_c#.pdb
+C:\Users\Administrator\Desktop\gamedata_c#\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\gamedata_c#\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\gamedata_c#\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.exe
+C:\Users\Administrator\Desktop\gamedata_c#\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.pdb
