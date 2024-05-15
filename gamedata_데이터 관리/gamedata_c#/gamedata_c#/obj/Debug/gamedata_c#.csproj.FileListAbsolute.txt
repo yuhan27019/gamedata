@@ -1,0 +1,24 @@
+C:\Users\Administrator\Desktop\gamedata_c#\gamedata_c#\gamedata_c#\bin\Debug\gamedata_c#.exe.config
+C:\Users\Administrator\Desktop\gamedata_c#\gamedata_c#\gamedata_c#\bin\Debug\gamedata_c#.exe
+C:\Users\Administrator\Desktop\gamedata_c#\gamedata_c#\gamedata_c#\bin\Debug\gamedata_c#.pdb
+C:\Users\Administrator\Desktop\gamedata_c#\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\gamedata_c#\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\gamedata_c#\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.exe
+C:\Users\Administrator\Desktop\gamedata_c#\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.pdb
+D:\timplay\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.csproj.AssemblyReference.cache
+D:\timplay\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.csproj.CoreCompileInputs.cache
+D:\timplay\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.exe
+D:\timplay\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.pdb
+D:\timplay\gamedata_c#\gamedata_c#\bin\Debug\gamedata_c#.exe.config
+D:\timplay\gamedata_c#\gamedata_c#\bin\Debug\gamedata_c#.exe
+D:\timplay\gamedata_c#\gamedata_c#\bin\Debug\gamedata_c#.pdb
+D:\tim\gamedata_c# _ 강화,상점,판매 수정\gamedata_c#\gamedata_c#\bin\Debug\gamedata_c#.exe.config
+D:\tim\gamedata_c# _ 강화,상점,판매 수정\gamedata_c#\gamedata_c#\bin\Debug\gamedata_c#.exe
+D:\tim\gamedata_c# _ 강화,상점,판매 수정\gamedata_c#\gamedata_c#\bin\Debug\gamedata_c#.pdb
+D:\tim\gamedata_c# _ 강화,상점,판매 수정\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.csproj.AssemblyReference.cache
+D:\tim\gamedata_c# _ 강화,상점,판매 수정\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.csproj.CoreCompileInputs.cache
+D:\tim\gamedata_c# _ 강화,상점,판매 수정\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.exe
+D:\tim\gamedata_c# _ 강화,상점,판매 수정\gamedata_c#\gamedata_c#\obj\Debug\gamedata_c#.pdb
+D:\tim\gamedata_c# _ 강화,상점,판매 수정\gamedata_c#\gamedata_c#\bin\Debug\Newtonsoft.Json.dll
+D:\tim\gamedata_c# _ 강화,상점,판매 수정\gamedata_c#\gamedata_c#\bin\Debug\Newtonsoft.Json.xml
+D:\tim\gamedata_c# _ 강화,상점,판매 수정\gamedata_c#\gamedata_c#\obj\Debug\gamedata.E6903BDD.Up2Date

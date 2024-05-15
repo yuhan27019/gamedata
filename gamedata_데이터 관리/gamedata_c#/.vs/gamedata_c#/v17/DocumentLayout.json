@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\tim\\gamedata_c#\\",
+  "WorkspaceRootPath": "D:\\tim\\gamedata_\uB370\uC774\uD130 \uAD00\uB9AC\\gamedata_c#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{656C7DB2-E602-4032-8F9C-895A6FF88A4D}|gamedata_c#\\gamedata_c#.csproj|d:\\tim\\gamedata_c#\\gamedata_c#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{656C7DB2-E602-4032-8F9C-895A6FF88A4D}|gamedata_c#\\gamedata_c#.csproj|d:\\tim\\gamedata_\uB370\uC774\uD130 \uAD00\uB9AC\\gamedata_c#\\gamedata_c#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{656C7DB2-E602-4032-8F9C-895A6FF88A4D}|gamedata_c#\\gamedata_c#.csproj|solutionrelative:gamedata_c#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\tim\\gamedata_c#\\gamedata_c#\\Program.cs",
+              "DocumentMoniker": "D:\\tim\\gamedata_\uB370\uC774\uD130 \uAD00\uB9AC\\gamedata_c#\\gamedata_c#\\Program.cs",
               "RelativeDocumentMoniker": "gamedata_c#\\Program.cs",
-              "ToolTip": "D:\\tim\\gamedata_c#\\gamedata_c#\\Program.cs",
+              "ToolTip": "D:\\tim\\gamedata_\uB370\uC774\uD130 \uAD00\uB9AC\\gamedata_c#\\gamedata_c#\\Program.cs",
               "RelativeToolTip": "gamedata_c#\\Program.cs",
-              "ViewState": "AQIAAIgAAAAAAAAAAAAAwEEAAABCAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T12:48:33.398Z",
               "EditorCaption": ""
